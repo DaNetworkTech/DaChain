@@ -61,7 +61,7 @@ Make sure that these binaries are in your `PATH`. After that, you should be able
 ### 3.2 Build from Source Code <a id="chapter-0032"></a>
 
 ```bash
-# download DA-Client code
+# download danetwork code
 $ git clone https://github.com/DaNetworkTech/DaChain
 $ cd DaChain
 
@@ -96,7 +96,7 @@ $ git checkout stable
 To start OpenEthereum manually, just run
 
 ```bash
-$ ./target/release/dachain
+$ ./target/release/danetwork --config node.toml
 ```
 
 
